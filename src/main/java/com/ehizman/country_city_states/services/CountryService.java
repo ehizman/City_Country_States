@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 public interface CountryService {
+    List<String> getAllCountries();
 
-    List<Countries> getAllCountries();
+    Long getCountryId(String country);
 }
